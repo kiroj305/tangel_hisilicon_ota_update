@@ -1,0 +1,1 @@
+# tangel_hisilicon_ota_update

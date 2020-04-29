@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RemoteManagement</string>
+    <string name="update">Update</string>
+    <string name="later">Later</string>
+    <string name="update_failed">Update Failed.</string>
+    <string name="update_info">There is new updating OTA firmware. Version :</string>
+</resources>

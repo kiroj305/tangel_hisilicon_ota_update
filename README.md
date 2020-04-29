@@ -1,4 +1,4 @@
-# tangel_hisilicon_ota_update
+# OTA Update Service for Hisilicon Android Set-top Box
 
 Json Payload Additional Data for Push Notification
 

@@ -11,7 +11,7 @@ public class UpdateScheduler extends BroadcastReceiver {
     public static boolean startService = false;
     @Override
     public void onReceive(Context context, Intent intent) {
-        Log.e("almond", "Update Boot Completed.");
+        Log.e("t@ngel", "Update Boot Completed.");
         String action = intent.getAction();
 
         if (Intent.ACTION_BOOT_COMPLETED.equals(action)

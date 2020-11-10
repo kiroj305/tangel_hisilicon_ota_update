@@ -15,7 +15,7 @@ public class PushReceiver extends BroadcastReceiver {
         try {
             String type = intent.getStringExtra("type");
             if (TextUtils.isEmpty(type)) return;
-            Log.e("almond", type);
+            Log.e("t@ngel", type);
             Command newCommand = new Command();
             if (type.equalsIgnoreCase(PackageManagement.OTA_COMMAND)) {
                 newCommand.type = PackageManagement.OTA_COMMAND;

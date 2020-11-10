@@ -16,7 +16,7 @@ public class RemoteManagement extends Application {
         super.onCreate();
         mInstance = this;
 
-        Log.e("almond", "Subscribe Pushy.me");
+        Log.e("t@ngel", "Subscribe Pushy.me");
         if (!Pushy.isRegistered(getApplicationContext())) {
             new RegisterForPushNotificationsAsync().execute();
         }
@@ -27,7 +27,7 @@ public class RemoteManagement extends Application {
             try {
                 // Assign a unique token to this device
                 deviceToken = Pushy.register(getApplicationContext());
-                Log.e("almond", deviceToken);
+                Log.e("t@ngel", deviceToken);
             }
             catch (Exception exc) {
                 // Return exc to onPostExecute
@@ -44,7 +44,6 @@ public class RemoteManagement extends Application {
             if (exc != null) {
                 // Show error as toast message
                 Toast.makeText(getApplicationContext(), exc.toString(), Toast.LENGTH_LONG).show();
-                return;
             }
 
             // Succeeded, optionally do something to alert the user
